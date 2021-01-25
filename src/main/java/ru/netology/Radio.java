@@ -26,7 +26,8 @@ public class Radio {
     public void numberStationNext() {
         if (currentNumberStation == 9) {
             this.currentNumberStation = 0;
-            return;}
+            return;
+        }
         currentNumberStation++;
         return;
     }
